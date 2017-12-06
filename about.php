@@ -29,7 +29,7 @@
    </nav></center>
 
     <main class="home-page">
-      <div class="title-container">
+      <div class="title-container-about">
         <p>
 
       <h2>FAQ</h2>
@@ -48,7 +48,8 @@
       <h4>What is Workout Tracker</h4>
       <ul>
          <li>Workout Tracker is designed to replace your paper workout journal. It is a simple tracker which keeps track of your workout. </li>
-         <li>What makes Workout Tracker special</p>
+         <br>
+         <h4>What makes Workout Tracker special?</h4>
          <li>Developed recently by group of computer science students who were disappointed by the selection of workout tracking</li>
          <li>apps, it combines the best features found in other apps with a minimalistic approach and a clean, easy-to-use interface.</li>
          <li>Give it a try. We know you'll love it! Also this is just the start if you like it, we will keep on improving it!</li>
@@ -59,7 +60,7 @@
          <li>Bhavya Parikh: parikhb@oregonstate.edu</li>
          <li>Trent Vasquez: vasquezt@oregonstate.edu</li>
       </ul>
-      
+
        <a href="http://www.fg-a.com" target="_blank"><img class="embeddedObject"
           src="http://content.screencast.com/users/fg-a/folders/christmas/media/5f436007-c128-4da4-bc2a-127b7df5a1a4/santa_g2.gif"
           width="150" height="150" border="0" alt="Clipart" /></a>
