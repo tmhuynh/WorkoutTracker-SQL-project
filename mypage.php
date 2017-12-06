@@ -93,7 +93,7 @@
 	-->
 
 	<form action="./insert_exercise.php" method="post">
-	  <div class="container">
+	  <div class="container-exercise">
 
 		 <p><label><b>Exercise ID</b></label>
  	    <input type="text" placeholder="Enter Exercise ID" name="exercise_id" required></p>
@@ -116,6 +116,31 @@
 
 	    <div class="clearfix">
 	      <button type="submit" class="signupbtn">Submit Exercise</button>
+	    </div>
+
+	  </div>
+	</form>
+
+	<form action="./insert_routine.php" method="post">
+	  <div class="container-routine">
+
+		 <p><label><b>Routine ID</b></label>
+ 	    <input type="text" placeholder="Enter Routine ID" name="routine_id" required></p>
+
+	    <p><label><b>Routine</b></label>
+	    <input type="text" placeholder="Enter Routine" name="routine" required></p>
+
+		 <p><label><b>Type</b></label>
+	    <input type="text" placeholder="Enter Type" name="type" required></p>
+
+	    <p><label><b>Calories</b></label>
+	    <input type="text" placeholder="Enter Calories" name="calories" required></p>
+
+		 <p><label><b>Author</b></label>
+		 <input type="text" placeholder="Enter Author" name="author" required></p>
+
+	    <div class="clearfix">
+	      <button type="submit" class="signupbtn">Submit Routine</button>
 	    </div>
 
 	  </div>
