@@ -28,6 +28,5 @@
 <div class="title-container">
 
 <form action="./routine.php"><input type="submit" value="Add a routine!"/></form><br>
-<form action="./routine.php"><input type="submit" value="Add an exercise!"/></form><br>
-<form action="./routine.php"><input type="submit" value="Add an event!"/></form><br>
+<form action="./exercise.php"><input type="submit" value="Add an exercise!"/></form><br>
 </div>

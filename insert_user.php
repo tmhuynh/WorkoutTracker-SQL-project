@@ -12,6 +12,9 @@
 
 <?php
 	include 'connectvarsEECS.php';
+
+	session_destroy();
+
 	$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 	if(!$conn){
 		die('Could not connect: ' . mysql_error());
@@ -29,6 +32,9 @@
 	$query = "INSERT INTO Users (username, hashed_pass, salt, email) VALUES ('$username', '$password', '$salt', '$email')";
 	if(mysqli_query($conn, $query)){
 		echo "recorded successfully";
+		session_start();
+		$_SESSION['user'] = $username;
+		$_SESSION['pass'] = $password;
 	}else{
 		echo "ERROR: couldn't preform $query. ". mysqli_error($conn);
 	}
@@ -43,6 +49,7 @@
      <li class="navitem"><a href="./mypage.php">My Page</a></li>
      <li class="navitem"><a href="./account.php">Account</a></li>
      <li class="navitem"><a href="./about.php">About</a></li>
+
   </ul>
 </center>
 

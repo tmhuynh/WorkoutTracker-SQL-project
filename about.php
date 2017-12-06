@@ -60,11 +60,18 @@
          <li>Bhavya Parikh: parikhb@oregonstate.edu</li>
          <li>Trent Vasquez: vasquezt@oregonstate.edu</li>
       </ul>
-
+<center>
        <a href="http://www.fg-a.com" target="_blank"><img class="embeddedObject"
           src="http://content.screencast.com/users/fg-a/folders/christmas/media/5f436007-c128-4da4-bc2a-127b7df5a1a4/santa_g2.gif"
-          width="150" height="150" border="0" alt="Clipart" /></a>
+          width="150" height="150" border="0" alt="Clipart" /></a>\
+      <a href="http://www.fg-a.com" target="_blank"><img class="embeddedObject"
+         src="http://content.screencast.com/users/fg-a/folders/christmas/media/5f436007-c128-4da4-bc2a-127b7df5a1a4/santa_g2.gif"
+         width="150" height="150" border="0" alt="Clipart" /></a>
 
+      <a href="http://www.fg-a.com" target="_blank"><img class="embeddedObject"
+         src="http://content.screencast.com/users/fg-a/folders/christmas/media/5f436007-c128-4da4-bc2a-127b7df5a1a4/santa_g2.gif"
+         width="150" height="150" border="0" alt="Clipart" /></a>
+</center>
     </main>
 
   </body>
