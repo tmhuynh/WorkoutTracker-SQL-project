@@ -26,18 +26,12 @@
 <main class="home-page">
 <div class="title-container">
 
-   <div>
-	This page displays your workout calendar and account information.
-   <br>
-   </div>
-   <br>
-
 <!-- EXAMPLES USED FOR CLASS
 	<h4>Exercise 1 - Reps: 20, Muscle Group: Biceps, Intensity: 5</h4><br>
 	<h4>Exercise 2 - Reps: 30, Muscle Group: Abs, Intensity: 10</h4><br>
 -->
 
-   <!-- CALENDAR -->
+   <!-- CALENDAR
    <div class="month">
 		<ul>
 			<li class="prev">&#10094;</li>
@@ -96,6 +90,7 @@
       <form action="./calendar.php"><input type="submit" value="29"/></form>
       <form action="./calendar.php"><input type="submit" value="30"/></form>
 	</ul>
+	-->
 
    <h3>Upcoming routines, exercises, and events</h3>
 
