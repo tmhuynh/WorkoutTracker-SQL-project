@@ -92,6 +92,35 @@
 	</ul>
 	-->
 
+	<form action="./insert_exercise.php" method="post">
+	  <div class="container">
+
+		 <p><label><b>Exercise ID</b></label>
+ 	    <input type="text" placeholder="Enter Exercise ID" name="exercise_id" required></p>
+
+	    <p><label><b>Exercise</b></label>
+	    <input type="text" placeholder="Enter Exercise" name="exercise" required></p>
+
+		 <p><label><b>Author</b></label>
+	    <input type="text" placeholder="Enter Author" name="author" required></p>
+
+	    <p><label><b>Muscle</b></label>
+	    <input type="text" placeholder="Enter Muscle" name="muscle" required></p>
+
+		 <p><label><b>Intensity</b></label>
+		 <input type="text" placeholder="Enter Intensity" name="intensity" required></p>
+
+		 <p><label><b>Reps</b></label>
+	    <input type="text" placeholder="Enter Reps" name="reps" required></p>
+
+
+	    <div class="clearfix">
+	      <button type="submit" class="signupbtn">Submit Exercise</button>
+	    </div>
+
+	  </div>
+	</form>
+
    <h3>Upcoming routines, exercises, and events</h3>
 
    <a href="http://www.fg-a.com" target="_blank"><img class="embeddedObject"
